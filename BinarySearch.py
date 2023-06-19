@@ -23,5 +23,6 @@ if x!=None:
     print('the element',target, 'is found at',x)
 else:
     print('element not found in the list')
+    print
     
 
