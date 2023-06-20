@@ -14,7 +14,7 @@ class BinarySearch:
                 first=mid+1
 List=[21,22,23,24,25,26,27]
 first=0
-last=len(List)
+last=len(List)-1
 target=int(input("enter the element you want to search for : "))
 # target=27
 obj=BinarySearch(List)
@@ -23,5 +23,6 @@ if x!=None:
     print('the element',target, 'is found at',x)
 else:
     print('element not found in the list')
-    print("pilla_kutha")
+    print
+    
 
