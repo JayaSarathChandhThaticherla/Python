@@ -1,0 +1,29 @@
+class BinarySearch:
+    def __init__(self, array):
+        self.array = array
+    
+    def search(self, target):
+        low = 0
+        high = len(self.array) - 1
+        
+        while low <= high:
+            mid = (low + high) // 2
+            
+            if self.array[mid] == target:
+                return mid
+            
+            if self.array[mid] < target:
+                low = mid + 1
+            else:
+                high = mid - 1
+        
+        return -1
+
+# Example usage:
+my_array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+binary_search = BinarySearch(my_array)
+target_index = binary_search.search(10)
+if target_index != -1:
+    print(f"Target found at index {target_index}")
+else:
+    print("Target not found")
