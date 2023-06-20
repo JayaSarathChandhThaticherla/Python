@@ -1,3 +1,4 @@
+#coded by me
 class BinarySearch:
     def __init__(self,List):
         self.List=List
@@ -23,6 +24,6 @@ if x!=None:
     print('the element',target, 'is found at',x)
 else:
     print('element not found in the list')
-    print
+
     
 
