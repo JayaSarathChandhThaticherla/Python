@@ -10,6 +10,6 @@ def Logic():
         List[i]=List[min]   
         List[min]=temp
     print(List)
-print(Logic())    
+Logic()
 
 
