@@ -38,7 +38,7 @@ class ArithmeticOperators:
     def FloorDivison(self):
         print("The FloorDivison is ",self.a//self.b)
 
-#This function is used for a integer
+#This function is used for an integer
     def Power(self):
         print("The Power is ",self.a**self.b)
 a=int(input("enter the value of a : "))
